@@ -40,105 +40,14 @@ function Header({ className, logo, joinBtn, search }) {
                 style={{ display: activeMobileMenu && "block" }}
               >
                 <ul className="navbar-nav">
-                  <li
-                    className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(activeMobileSubMenu === "course" ? false : "course")
-                    }
-                  >
-                    <a>Curriculum</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${
-                          activeMobileSubMenu === "course" ? "fa-minus" : "fa-plus"
-                        }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "course" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/course-1">Course 01</Link>
-                      </li>
-                      <li>
-                        <Link to="/course-2">Course 02</Link>
-                      </li>
-                      <li>
-                        <Link to="/course-3">Course 03</Link>
-                      </li>
-                      <li>
-                        <Link to="/single-course">Course Details</Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <a href="/course-2">Curriculum</a>
                   </li>
-                  <li
-                    className="menu-item-has-children"
-                    name="pages"
-                    onClick={(e) => {
-                      setActiveSubMobileMenu(
-                        e.target.name
-                          ? e.target.name === activeMobileSubMenu
-                            ? "pages"
-                            : e.target.name
-                          : activeMobileSubMenu === "pages"
-                          ? false
-                          : "pages"
-                      );
-                    }}
-                  >
-                    <a>About Us</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${
-                          activeMobileSubMenu === "pages" ? "fa-minus" : "fa-plus"
-                        }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display:
-                          (activeMobileSubMenu === "pages" && "block") ||
-                          (activeMobileSubMenu === "aboutPages" && "block"),
-                      }}
-                    >
-                      <li className="menu-item-has-children">
-                        <a name="aboutPages">About Pages</a>
-                        <span className="submenu-toggler" name="aboutPages">
-                          <i
-                            className={`fal ${
-                              activeMobileSubMenu === "aboutPages" ? "fa-minus" : "fa-plus"
-                            }`}
-                            name="aboutPages"
-                          ></i>
-                        </span>
-                        <ul
-                          className="sub-menu"
-                          style={{
-                            display: activeMobileSubMenu === "aboutPages" && "block",
-                          }}
-                        >
-                          <li>
-                            <Link to="/about-1">About 01</Link>
-                          </li>
-                          <li>
-                            <Link to="/about-2">About 02</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <Link to="/instructor">Instructor Page</Link>
-                      </li>
-                      <li>
-                        <Link to="/profile">Instructor Profile</Link>
-                      </li>
-                      <li>
-                        <Link to="/404">404 Page</Link>
-                      </li>
-                    </ul>
+                  <li>
+                    <a href="/about-2">About Us</a>
+                  </li>
+                  <li className="d-md-none">
+                    <a href="/contact">Enroll Today</a>
                   </li>
                 </ul>
               </div>
