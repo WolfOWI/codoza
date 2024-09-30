@@ -69,9 +69,7 @@ function Course1() {
                 <div className="tab-content">
                   {activeView === "grid" ? (
                     <div
-                      className={`tab-pane fade in ${
-                        activeView === "grid" ? "show active" : ""
-                      }`}
+                      className={`tab-pane fade in ${activeView === "grid" ? "show active" : ""}`}
                       id="grid"
                       role="tabpanel"
                     >
@@ -84,33 +82,25 @@ function Course1() {
                           All
                         </li>
                         <li
-                          className={
-                            activeCategory === "Web Development" ? "active" : ""
-                          }
+                          className={activeCategory === "Web Development" ? "active" : ""}
                           onClick={(e) => setActiveCategory(e.target.innerText)}
                         >
                           Web Development
                         </li>
                         <li
-                          className={
-                            activeCategory === "Architecture" ? "active" : ""
-                          }
+                          className={activeCategory === "Architecture" ? "active" : ""}
                           onClick={(e) => setActiveCategory(e.target.innerText)}
                         >
                           Architecture
                         </li>
                         <li
-                          className={
-                            activeCategory === "Engineering" ? "active" : ""
-                          }
+                          className={activeCategory === "Engineering" ? "active" : ""}
                           onClick={(e) => setActiveCategory(e.target.innerText)}
                         >
                           Engineering
                         </li>
                         <li
-                          className={
-                            activeCategory === "Data Science" ? "active" : ""
-                          }
+                          className={activeCategory === "Data Science" ? "active" : ""}
                           onClick={(e) => setActiveCategory(e.target.innerText)}
                         >
                           Data Science
@@ -124,9 +114,7 @@ function Course1() {
                           ?.filter((course) =>
                             activeCategory === "All"
                               ? course
-                              : course.category.find(
-                                  (item) => item === activeCategory
-                                )
+                              : course.category.find((item) => item === activeCategory)
                           )
                           .map((course) => (
                             <FeatureCard course={course} key={course.id} />
@@ -147,9 +135,7 @@ function Course1() {
                     </div>
                   ) : (
                     <div
-                      className={`tab-pane fade in ${
-                        activeView === "list" ? "show active" : ""
-                      }`}
+                      className={`tab-pane fade in ${activeView === "list" ? "show active" : ""}`}
                       style={{
                         gap: "30px",
                         display: "flex",
@@ -159,11 +145,7 @@ function Course1() {
                       role="tabpanel"
                     >
                       {course?.map((item) => (
-                        <CourseListView
-                          key={item.id}
-                          course={item}
-                          className="ci-3-color"
-                        />
+                        <CourseListView key={item.id} course={item} className="ci-3-color" />
                       ))}
                     </div>
                   )}

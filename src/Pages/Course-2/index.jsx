@@ -23,84 +23,27 @@ function Course2() {
     content = (
       <>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
-        <Banner title="Courses Grid" background="assets/images/banner3.jpg" />
-        <section className="coursepage-section-2">
+        <Banner title="Our Curriculum" background="assets/images/banner3.jpg" />
+        <div className="container mt-5">
+          <h5 className="font-weight-normal">
+            Our 10-month curriculum is designed to take students from beginner to intermediate level
+            in coding, ensuring they have a solid foundation in programming by the end of the
+            course.
+          </h5>
+        </div>
+        <section className="coursepage-section-2 pt-5">
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <div className="toolbar-wrapper-2">
-                  <ul className="toolbar-btn nav nav-tabs">
-                    <li>
-                      <a
-                        className={activeView === "grid" ? "active" : ""}
-                        onClick={() => setActiveView("grid")}
-                      >
-                        <i className="icon_grid-2x2"></i>Grid
-                      </a>
-                    </li>
-                    <li style={{ marginLeft: "5px" }}>
-                      <a
-                        onClick={() => setActiveView("list")}
-                        className={activeView === "list" ? "active" : ""}
-                      >
-                        <i className="icon_menu"></i>List
-                      </a>
-                    </li>
-                  </ul>
-                  <div className="sorting">
-                    <p>Sort by:</p>
-                    <select name="orderby" className="orderby">
-                      <option value="menu_order" defaultValue="selected">
-                        Default
-                      </option>
-                      <option value="new">Newest Course</option>
-                      <option value="popular">Popular Course</option>
-                      <option value="rating">Average Rating</option>
-                      <option value="price">Low to High</option>
-                      <option value="price-desc">High to Low</option>
-                    </select>
-                  </div>
-                  <form className="search-box" method="post" action="#">
-                    <input
-                      type="search"
-                      name="s"
-                      placeholder="Search Courses..."
-                    />
-                    <button type="submit">
-                      <i className="ti-search"></i>
-                    </button>
-                  </form>
-                </div>
                 <div className="tab-content">
-                  <div
-                    className="tab-pane fade show in active"
-                    style={{
-                      display: "flex",
-                      flexDirection: activeView === "list" && "column",
-                      flexWrap: "wrap",
-                      gap: activeView === "list" && "30px",
-                    }}
-                  >
-                    <div className="row">
-                      {course.map((item) =>
-                        activeView === "grid" ? (
-                          <FeatureCourseCard
-                            course={item}
-                            key={item.id}
-                            className="feature-course-item-3 fci-3"
-                          />
-                        ) : (
-                          <CourseListView key={item.id} course={item} />
-                        )
-                      )}
-                    </div>
-                  </div>
                   <div className="row">
-                    <div className="col-lg-12 text-center">
-                      <Link to="/" className="bisylms-btn load-btn">
-                        Load More<i className="icon_loading"></i>
-                      </Link>
-                    </div>
+                    {course.map((item) => (
+                      <FeatureCourseCard
+                        course={item}
+                        key={item.id}
+                        className="feature-course-item-3 fci-3"
+                      />
+                    ))}
                   </div>
                 </div>
               </div>
