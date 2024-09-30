@@ -26,14 +26,13 @@ function HomeHero() {
         <div className="row">
           <div className="col-lg-5 col-md-5">
             <div className="hero-content">
-              <h2>Your Course To Success</h2>
+              <h2>Welcome to Codoza</h2>
+              <h3>Where kids become future coders!</h3>
               <p>
-                Loo you mug lurgy baking cakes boot cracking goal morish up the
-                duff haggle hotpot faff about no biggie burke, is bleeder
-                bamboozled bite your.
+                Join our fun and interactive 10-month coding program designed for kids aged 8 to 13.
               </p>
               <Link to="/course-1" className="bisylms-btn">
-                Ready to Get Started?
+                Learn More
               </Link>
             </div>
           </div>

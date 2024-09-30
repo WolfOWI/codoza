@@ -3,132 +3,45 @@ import { Link } from "react-router-dom";
 
 function Footer({ getStart }) {
   return (
-    <footer className={`footer-1 ${!getStart && "pd-top-90"}`}>
+    <footer className={`footer-1 pt-5`}>
       <div className="container">
-        {getStart && (
-          <div className="row">
-            <div className="col-md-12">
-              <div className="cta-wrapper">
-                <img src="assets/images/home/2.png" alt="" />
-                <h3>You can be your own Guiding star with our help!</h3>
-                <Link to="/course-3" className="bisylms-btn">
-                  Get Started Now
-                </Link>
-              </div>
-            </div>
-          </div>
-        )}
         <div className="row">
-          <div className="col-lg-4 col-md-3">
+          <div className="col-sm-12 col-md-4">
             <aside className="widget">
               <div className="about-widget">
                 <Link to="/">
                   <img src="assets/images/logo.png" alt="" />
                 </Link>
-                <p>
-                  Lost the plot Richard you mug cup of tea knackered boot
-                  bender.
-                </p>
-                <div className="ab-social">
-                  <a className="fac" href="#">
-                    <i className="social_facebook"></i>
-                  </a>
-                  <a className="twi" href="#">
-                    <i className="social_twitter"></i>
-                  </a>
-                  <a className="you" href="#">
-                    <i className="social_youtube"></i>
-                  </a>
-                  <a className="lin" href="#">
-                    <i className="social_linkedin"></i>
-                  </a>
-                </div>
+                <p>Shaping Tomorrow's Innovators, One Line of Code at a Time</p>
               </div>
             </aside>
           </div>
-          <div className="col-lg-3 col-md-3">
-            <aside className="widget">
-              <h3 className="widget-title">Explore</h3>
-              <ul>
-                <li>
-                  <Link to="/about-1">About Us</Link>
-                </li>
-                <li>
-                  <Link to="#">Success Story</Link>
-                </li>
-                <li>
-                  <Link to="#">Careers</Link>
-                </li>
-                <li>
-                  <Link to="#">Resource Center</Link>
-                </li>
-                <li>
-                  <Link to="/course-1">Courses</Link>
-                </li>
-                <li>
-                  <Link to="/contact">Contact Us</Link>
-                </li>
-              </ul>
-            </aside>
-          </div>
-          <div className="col-lg-3 col-md-3">
-            <aside className="widget">
-              <h3 className="widget-title">Catecories</h3>
-              <ul>
-                <li>
-                  <Link to="/course-1">All Courses</Link>
-                </li>
-                <li>
-                  <Link to="#">Storytelling & Voice Over</Link>
-                </li>
-                <li>
-                  <Link to="#">Digital Marketing</Link>
-                </li>
-                <li>
-                  <Link to="#">Design & Branding</Link>
-                </li>
-                <li>
-                  <Link to="#">Nanodegree Plus</Link>
-                </li>
-                <li>
-                  <Link to="#">Veterans</Link>
-                </li>
-              </ul>
-            </aside>
-          </div>
-          <div className="col-lg-2 col-md-3">
-            <aside className="widget">
-              <h3 className="widget-title">Support</h3>
-              <ul>
-                <li>
-                  <Link to="#">Help Center</Link>
-                </li>
-                <li>
-                  <Link to="#">System Requirements</Link>
-                </li>
-                <li>
-                  <Link to="#">Register Activation Key</Link>
-                </li>
-                <li>
-                  <Link to="#">Site Feedback</Link>
-                </li>
-                <li>
-                  <Link to="#">Documentation</Link>
-                </li>
-                <li>
-                  <Link to="#">Forums</Link>
-                </li>
-              </ul>
-            </aside>
+          <div className="ab-social col-sm-12 col-md-8 w-100 text-sm-center text-md-left">
+            <a className="fac m-4" href="https://www.facebook.com" target="_blank">
+              <i className="social_facebook"></i>
+            </a>
+            <a className="twi m-4" href="https://www.x.com" target="_blank">
+              <i className="social_twitter"></i>
+            </a>
+            <a
+              className="you m-4"
+              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              target="_blank"
+            >
+              <i className="social_youtube"></i>
+            </a>
+            <a className="lin m-4" href="https://www.linkedin.com" target="_blank">
+              <i className="social_linkedin"></i>
+            </a>
           </div>
         </div>
-        {/* Copyrigh  */}
+        {/* Copyright  */}
         <div className="row">
           <div className="col-lg-12 text-center">
-            <div className="copyright">
+            <div className="copyright mt-2">
               <p>
-                © 2021 Copyright all Right Reserved Design by{" "}
-                <a href="http://quomodosoft.com/">Quomodosoft</a>
+                © 2024 Wolf Botha. All rights reserved. Please note: This website is for educational
+                purposes only. Codoza is a fictional entity and does not represent a real business.
               </p>
             </div>
           </div>

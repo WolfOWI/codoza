@@ -4,26 +4,16 @@ function Cta() {
   return (
     <section
       className="cta-section"
-      style={{ backgroundImage: "url(assets/images/home/cta-bg.jpg)" }}
+      style={{
+        backgroundImage: "url(assets/images/home/cta-bg.jpg)",
+        padding: 100,
+      }}
     >
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h2 className="sec-title">
-              <span>Online Course</span> From 160 Top Institutions.
-            </h2>
-            <p>
-              So I said codswallop car boot cheers mufty I don't want no agro
-              are you taking the
-              <br /> piss cheeky my lady gutted mate excuse my french.
-            </p>
-            <Link
-              to="/course-1"
-              className="bisylms-btn"
-              style={{ zIndex: "0" }}
-            >
-              Start Courses
-            </Link>
+            <h2 className="sec-title">Parent Testimonial</h2>
+            <p>“My child loved learning to code and built their own game!”</p>
           </div>
         </div>
       </div>

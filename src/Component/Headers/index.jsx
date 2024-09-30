@@ -20,11 +20,7 @@ function Header({ className, logo, joinBtn, search }) {
               {/* logo Start */}
               <Link className="navbar-brand" to="/">
                 <img src={logo} alt="" />
-                <img
-                  className="sticky-logo"
-                  src="assets/images/logo4.png"
-                  alt=""
-                />
+                <img className="sticky-logo" src="assets/images/logo4.png" alt="" />
               </Link>
               {/* logo End */}
 
@@ -47,53 +43,14 @@ function Header({ className, logo, joinBtn, search }) {
                   <li
                     className="menu-item-has-children"
                     onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "home" ? false : "home"
-                      )
+                      setActiveSubMobileMenu(activeMobileSubMenu === "course" ? false : "course")
                     }
                   >
-                    <a>Home</a>
+                    <a>Curriculum</a>
                     <span className="submenu-toggler">
                       <i
                         className={`fal ${
-                          activeMobileSubMenu === "home"
-                            ? "fa-minus"
-                            : "fa-plus"
-                        }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "home" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/">Home One</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-2">Home Two</Link>
-                      </li>
-                      <li>
-                        <Link to="/home-3">Home Three</Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li
-                    className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "course" ? false : "course"
-                      )
-                    }
-                  >
-                    <a>Courses</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${
-                          activeMobileSubMenu === "course"
-                            ? "fa-minus"
-                            : "fa-plus"
+                          activeMobileSubMenu === "course" ? "fa-minus" : "fa-plus"
                         }`}
                       ></i>
                     </span>
@@ -132,13 +89,11 @@ function Header({ className, logo, joinBtn, search }) {
                       );
                     }}
                   >
-                    <a>Pages</a>
+                    <a>About Us</a>
                     <span className="submenu-toggler">
                       <i
                         className={`fal ${
-                          activeMobileSubMenu === "pages"
-                            ? "fa-minus"
-                            : "fa-plus"
+                          activeMobileSubMenu === "pages" ? "fa-minus" : "fa-plus"
                         }`}
                       ></i>
                     </span>
@@ -155,9 +110,7 @@ function Header({ className, logo, joinBtn, search }) {
                         <span className="submenu-toggler" name="aboutPages">
                           <i
                             className={`fal ${
-                              activeMobileSubMenu === "aboutPages"
-                                ? "fa-minus"
-                                : "fa-plus"
+                              activeMobileSubMenu === "aboutPages" ? "fa-minus" : "fa-plus"
                             }`}
                             name="aboutPages"
                           ></i>
@@ -165,8 +118,7 @@ function Header({ className, logo, joinBtn, search }) {
                         <ul
                           className="sub-menu"
                           style={{
-                            display:
-                              activeMobileSubMenu === "aboutPages" && "block",
+                            display: activeMobileSubMenu === "aboutPages" && "block",
                           }}
                         >
                           <li>
@@ -188,68 +140,21 @@ function Header({ className, logo, joinBtn, search }) {
                       </li>
                     </ul>
                   </li>
-                  <li
-                    className="menu-item-has-children"
-                    onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "blog" ? false : "blog"
-                      )
-                    }
-                  >
-                    <a>Blog</a>
-                    <span className="submenu-toggler">
-                      <i
-                        className={`fal ${
-                          activeMobileSubMenu === "blog"
-                            ? "fa-minus"
-                            : "fa-plus"
-                        }`}
-                      ></i>
-                    </span>
-                    <ul
-                      className="sub-menu"
-                      style={{
-                        display: activeMobileSubMenu === "blog" && "block",
-                      }}
-                    >
-                      <li>
-                        <Link to="/blog">Blog Page</Link>
-                      </li>
-                      <li>
-                        <Link to="/single-post">Blog Details</Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link to="/contact">Contact</Link>
-                  </li>
                 </ul>
               </div>
               {/* Nav Menu End  */}
 
-              {/*  User Btn  */}
-              {className !== "header-02" && (
-                <a href="#" className="user-btn">
-                  <i className="ti-user"></i>
-                </a>
-              )}
-              {/*  User Btn  */}
-
               {/* Join Btn  */}
               {joinBtn && (
-                <a href="#" className="join-btn">
-                  Join for Free
+                <a href="/contact" className="join-btn">
+                  Enroll Today
                 </a>
               )}
 
               {/* Join Btn   */}
               {search && (
                 <form className="search-box" method="post" action="#">
-                  <input
-                    type="search"
-                    name="s"
-                    placeholder="Search Courses..."
-                  />
+                  <input type="search" name="s" placeholder="Search Courses..." />
                   <button type="submit">
                     <i className="ti-search"></i>
                   </button>

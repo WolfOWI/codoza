@@ -27,12 +27,7 @@ function Home() {
         <Header logo="assets/images/logo.png" joinBtn={true} />
         <HomeHero />
         <PopularCourse course={true} heading={true} />
-        <Feature />
         <Cta />
-        <Video />
-        <Event />
-        <Package />
-        <Blogs />
         <Footer getStart={true} />
         <GotoTop />
       </>

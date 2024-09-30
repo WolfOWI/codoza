@@ -5,17 +5,28 @@ function PopularCourse({ course, heading }) {
   return (
     <section className="popular-course-section">
       <div className="container">
+        <div className="row mt-120">
+          <div className="col-lg-7 col-md-6">
+            <div className="ab-thumb">
+              <img src="assets/images/home/1.png" alt="" />
+            </div>
+          </div>
+          <div className="col-lg-5 col-md-6">
+            <div className="ab-content">
+              <h3>
+                At Codoza, we believe in nurturing young minds through coding. Our hands-on
+                curriculum empowers kids to think creatively, solve problems, and build projects.
+              </h3>
+              <a className="bisylms-btn" href="/contact">
+                Enroll Now
+              </a>
+            </div>
+          </div>
+        </div>
         {heading && (
           <div className="row">
             <div className="col-md-8">
-              <h2 className="sec-title">
-                <span>Explore</span> Our Popular Courses
-              </h2>
-            </div>
-            <div className="col-md-4">
-              <a className="read-more" href="#">
-                Browse Online Courses<i className="arrow_right"></i>
-              </a>
+              <h2 className="sec-title mt-5">Highlights</h2>
             </div>
           </div>
         )}
@@ -23,7 +34,10 @@ function PopularCourse({ course, heading }) {
           <div className="row">
             <div className="col-lg-12">
               <div className="course-wrapper">
-                <CourseItemCard title="Computer Science" link="single-course">
+                <CourseItemCard
+                  title="10 Months Course (February to November)"
+                  link="single-course"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -54,64 +68,7 @@ function PopularCourse({ course, heading }) {
                     />
                   </svg>
                 </CourseItemCard>
-                <CourseItemCard
-                  title="Data Analysis & Statistics"
-                  link="single-course"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    width="64"
-                    height="64"
-                    viewBox="0 0 64 64"
-                  >
-                    <image
-                      id="data"
-                      width="64"
-                      height="64"
-                      xlinkHref="assets/images/home/data-image.png"
-                    />
-                  </svg>
-                </CourseItemCard>
-                <CourseItemCard
-                  title="Business & Management"
-                  link="single-course"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    width="74"
-                    height="70"
-                    viewBox="0 0 74 70"
-                  >
-                    <image
-                      id="proposal"
-                      width="74"
-                      height="70"
-                      xlinkHref="assets/images/home/proposal-image.png"
-                    />
-                  </svg>
-                </CourseItemCard>
-                <CourseItemCard title="Social Sciences" link="single-course">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    width="80"
-                    height="67"
-                    viewBox="0 0 80 67"
-                  >
-                    <image
-                      id="chat"
-                      width="80"
-                      height="67"
-                      xlinkHref="assets/images/home/chat-image.png"
-                    />
-                  </svg>
-                </CourseItemCard>
-                <CourseItemCard
-                  title="Biology & Life Sciences"
-                  link="single-course"
-                >
+                <CourseItemCard title="Recommended for ages of 8 to 13 years" link="single-course">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -127,33 +84,42 @@ function PopularCourse({ course, heading }) {
                     />
                   </svg>
                 </CourseItemCard>
+                <CourseItemCard title="Game Dev, Web Design, Problem-Solving." link="single-course">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    width="64"
+                    height="64"
+                    viewBox="0 0 64 64"
+                  >
+                    <image
+                      id="data"
+                      width="64"
+                      height="64"
+                      xlinkHref="assets/images/home/data-image.png"
+                    />
+                  </svg>
+                </CourseItemCard>
+                <CourseItemCard title="Scratch, HTML, CSS, JavaScript." link="single-course">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlnsXlink="http://www.w3.org/1999/xlink"
+                    width="80"
+                    height="67"
+                    viewBox="0 0 80 67"
+                  >
+                    <image
+                      id="chat"
+                      width="80"
+                      height="67"
+                      xlinkHref="assets/images/home/chat-image.png"
+                    />
+                  </svg>
+                </CourseItemCard>
               </div>
             </div>
           </div>
         )}
-        <div className="row mt-120">
-          <div className="col-lg-7 col-md-6">
-            <div className="ab-thumb">
-              <img src="assets/images/home/1.png" alt="" />
-            </div>
-          </div>
-          <div className="col-lg-5 col-md-6">
-            <div className="ab-content">
-              <h3>I will stay with you until you pass your exam.</h3>
-              <p className="mid-item">
-                Who else do you know who'll do that for you?
-              </p>
-              <p>
-                So I said codswallop car boot cheers mufty I don't want no agro
-                are you taking the piss cheeky my lady gutted mate excuse my
-                french, gormless have it cras.
-              </p>
-              <a className="bisylms-btn" href="#">
-                Know More
-              </a>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );
