@@ -27,47 +27,49 @@ function Contact() {
               <div className="col-md-4">
                 <div className="contact--info-area">
                   <h3>Get in touch</h3>
-                  <p>
-                    Looking for help? Fill the form and start a new adventure.
-                  </p>
+                  <p>Looking for help? Fill the form and start a new adventure.</p>
                   <div className="single-info">
-                    <h5>Headquaters</h5>
+                    <h5>School Address</h5>
                     <p>
                       <i className="icon_house_alt"></i>
-                      744 New York Ave, Brooklyn, Kings,
-                      <br /> New York 10224
+                      1297 John Vorster Dr, Southdowns, Centurion, 0062
                     </p>
                   </div>
                   <div className="single-info">
-                    <h5>Phone</h5>
+                    <h5>Contact Info</h5>
                     <p>
                       <i className="icon_phone"></i>
-                      (+642) 245 356 432
-                      <br />
-                      (+420) 336 476 328
+                      (+27) 12 648 9200
+                    </p>
+                    <p>
+                      <i className="icon_mail_alt"></i>
+                      support@codoza.co.za
                     </p>
                   </div>
                   <div className="single-info">
-                    <h5>Support</h5>
+                    <h5>Enrollment Details</h5>
                     <p>
-                      <i className="icon_mail_alt"></i>
-                      bisy@support.com
+                      Classes begin every February.
                       <br />
-                      help@education.com
+                      Contact us to reserve your spot!
                     </p>
                   </div>
                   <div className="ab-social">
                     <h5>Follow Us</h5>
-                    <a className="fac" href="#">
+                    <a className="fac" href="https://www.facebook.com" target="_blank">
                       <i className="social_facebook"></i>
                     </a>
-                    <a className="twi" href="#">
+                    <a className="twi" href="https://www.x.com" target="_blank">
                       <i className="social_twitter"></i>
                     </a>
-                    <a className="you" href="#">
+                    <a
+                      className="you"
+                      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                      target="_blank"
+                    >
                       <i className="social_youtube"></i>
                     </a>
-                    <a className="lin" href="#">
+                    <a className="lin" href="https://www.linkedin.com" target="_blank">
                       <i className="social_linkedin"></i>
                     </a>
                   </div>
@@ -75,9 +77,10 @@ function Contact() {
               </div>
               <div className="col-md-8">
                 <div className="contact-form">
-                  <h4>Let’s Connect</h4>
+                  <h3>Start Your Coding Journey Today</h3>
                   <p>
-                    Integer at lorem eget diam facilisis lacinia ac id massa.
+                    Complete the form below to reach out with any questions or to inquire about
+                    enrolling in our 10-month program.
                   </p>
                   <ContactForm />
                 </div>
