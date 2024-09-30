@@ -8,6 +8,8 @@ import Testimonial from "../../Component/Testimonials/Testimonial";
 import Customer from "../../Component/Customer/Customer";
 import Event from "../../Component/Event/Event";
 import GotoTop from "../../Component/GotoTop";
+import TeacherCard from "../../Component/Cards/TeacherCard";
+import FeatureHome3 from "../../Component/Features/FeatureHome3";
 
 function About2() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,11 +24,82 @@ function About2() {
     content = (
       <>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
-        <Banner title="About Classic" background="assets/images/banner.jpg" />
+        <Banner title="About Codoza" background="assets/images/banner.jpg" />
         <About />
-        <Testimonial />
-        <Event />
-        <Customer />
+        <section className="instructor-section">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12 text-center">
+                <h2 className="sec-title mb-25">Meet Our Instructors</h2>
+              </div>
+            </div>
+            <div className="row">
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/1.png",
+                  name: "Lana Debugger",
+                  subject: "Full Stack Developer",
+                }}
+              />
+
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/2.png",
+                  name: "Felix Variables",
+                  subject: "Game Developer",
+                }}
+              />
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/3.png",
+                  name: "Tina Loops",
+                  subject: "Web Designer",
+                }}
+              />
+
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/4.png",
+                  name: "Milo Functions",
+                  subject: "Front-End Developer",
+                }}
+              />
+
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/5.png",
+                  name: "Zara Styles",
+                  subject: "CSS Expert",
+                }}
+              />
+
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/6.png",
+                  name: "Oliver Syntax",
+                  subject: "JavaScript Developer",
+                }}
+              />
+
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/7.png",
+                  name: "Isla Arrays",
+                  subject: "Back-End Developer",
+                }}
+              />
+
+              <TeacherCard
+                teacher={{
+                  img: "assets/images/home2/teacher/8.png",
+                  name: "Finn Boolean",
+                  subject: "App Developer",
+                }}
+              />
+            </div>
+          </div>
+        </section>
+        <FeatureHome3 />
         <Footer getStart={true} />
         <GotoTop />
       </>

@@ -10,21 +10,18 @@ function About() {
           </div>
           <div className="col-lg-5">
             <div className="ab-content-2">
-              <h3>What will you Discover?</h3>
-              <p>
-                Explore new skills, deepen existing passions, and get lost in
-                creativity. What you find just might surprise and inspire you.
-              </p>
-              <a className="read-more" href="#">
-                Browse Classes<i className="arrow_right"></i>
-              </a>
+              <h3>Our Story</h3>
+              <h4 className="font-weight-normal">
+                Codoza was founded to inspire the next generation of programmers by making coding
+                accessible, fun, and creative.
+              </h4>
             </div>
             <div className="fact-wrapper">
               <div className="funfact-item text-center">
                 <img src="assets/images/home2/f1.png" alt="" />
                 <h2>
                   <span data-counter="24200" className="timer">
-                    24200
+                    500
                   </span>
                   +
                 </h2>
@@ -34,21 +31,21 @@ function About() {
                 <img src="assets/images/home2/f2.png" alt="" />
                 <h2>
                   <span data-counter="6214" className="timer">
-                    6214
+                    10
                   </span>
                   +
                 </h2>
-                <p>Courses</p>
+                <p>Topics</p>
               </div>
               <div className="funfact-item text-center">
                 <img src="assets/images/home2/f3.png" alt="" />
                 <h2>
                   <span data-counter="2500" className="timer">
-                    2500
+                    7
                   </span>
                   +
                 </h2>
-                <p>Award</p>
+                <p>Awards</p>
               </div>
             </div>
           </div>

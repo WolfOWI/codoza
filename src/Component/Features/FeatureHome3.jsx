@@ -6,29 +6,26 @@ function FeatureHome3() {
           <div className="col-md-6">
             <div className="feature-item">
               <img src="assets/images/home3/f1.png" alt="" />
-              <h4>
-                Earn a certificate
-                <br /> or degree
-              </h4>
+              <h4>Our Approach to Teaching</h4>
               <p>
-                Get ahead with expert-led training in coding, data, design,
-                digital marketing, and more.
+                We focus on hands-on learning, ensuring that students understand coding concepts
+                through interactive projects and challenges.
               </p>
-              <a href="#" className="bisylms-btn-3">
-                Browse Courses
+              <a href="/course-2" className="bisylms-btn-3">
+                Learn More
               </a>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 mb-4">
             <div className="feature-item">
               <img src="assets/images/home3/f2.png" alt="" />
-              <h4>
-                Learn the latest
-                <br /> skills
-              </h4>
-              <p>like business analytics, graphic design, Python, and more.</p>
-              <a href="#" className="bisylms-btn-3">
-                Get Started
+              <h4>Why Choose Us?</h4>
+              <p>
+                We focus on personalized learning, small class sizes, and age-appropriate content,
+                ensuring every student receives individual attention.
+              </p>
+              <a href="/contact" className="bisylms-btn-3">
+                Contact Us
               </a>
             </div>
           </div>

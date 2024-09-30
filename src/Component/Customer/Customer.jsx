@@ -7,16 +7,14 @@ function Customer() {
         <div className="row">
           <div className="col-md-6">
             <h2 className="sec-title mb-15">
-              <span>Bisy LMS for</span> Business Customers
+              <span>Our Approach to</span> Teaching
             </h2>
             <p className="sec-desc">
-              We’ve got the solution: world-class training and development
+              We focus on hands-on learning, ensuring that students understand
               <br />
-              programs developed by top universities and companies. All on Bisy
-              <br />
-              LMS for Business.
+              coding concepts through interactive projects and challenges.
             </p>
-            <Link to="/" className="bisylms-btn-2">
+            <Link to="/course-2" className="bisylms-btn-2">
               Learn More
             </Link>
           </div>
