@@ -5,7 +5,7 @@ function About() {
         <div className="row">
           <div className="col-lg-7">
             <div className="ab-thumb">
-              <img src="assets/images/home2/1.png" alt="" />
+              <img src="assets/images/coding3d.png" alt="" />
             </div>
           </div>
           <div className="col-lg-5">

@@ -24,7 +24,7 @@ function About2() {
     content = (
       <>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
-        <Banner title="About Codoza" background="assets/images/banner.jpg" />
+        <Banner title="About Codoza" background="assets/images/two-kids-class.jpg" />
         <About />
         <section className="instructor-section">
           <div className="container">
@@ -36,7 +36,7 @@ function About2() {
             <div className="row">
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/1.png",
+                  img: "assets/images/instructors/lect-1.png",
                   name: "Lana Debugger",
                   subject: "Full Stack Developer",
                 }}
@@ -44,14 +44,14 @@ function About2() {
 
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/2.png",
+                  img: "assets/images/instructors/lect-2.png",
                   name: "Felix Variables",
                   subject: "Game Developer",
                 }}
               />
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/3.png",
+                  img: "assets/images/instructors/lect-3.png",
                   name: "Tina Loops",
                   subject: "Web Designer",
                 }}
@@ -59,7 +59,7 @@ function About2() {
 
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/4.png",
+                  img: "assets/images/instructors/lect-4.png",
                   name: "Milo Functions",
                   subject: "Front-End Developer",
                 }}
@@ -67,7 +67,7 @@ function About2() {
 
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/5.png",
+                  img: "assets/images/instructors/lect-5.png",
                   name: "Zara Styles",
                   subject: "CSS Expert",
                 }}
@@ -75,7 +75,7 @@ function About2() {
 
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/6.png",
+                  img: "assets/images/instructors/lect-6.png",
                   name: "Oliver Syntax",
                   subject: "JavaScript Developer",
                 }}
@@ -83,7 +83,7 @@ function About2() {
 
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/7.png",
+                  img: "assets/images/instructors/lect-7.png",
                   name: "Isla Arrays",
                   subject: "Back-End Developer",
                 }}
@@ -91,7 +91,7 @@ function About2() {
 
               <TeacherCard
                 teacher={{
-                  img: "assets/images/home2/teacher/8.png",
+                  img: "assets/images/instructors/lect-8.png",
                   name: "Finn Boolean",
                   subject: "App Developer",
                 }}
