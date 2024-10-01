@@ -9,16 +9,16 @@ function TeacherCard({ teacher, swiper }) {
       <div className="teacher-thumb">
         <img src={img} alt="" />
         <div className="teacher-social">
-          <a href="#">
+          <a href="https://dribbble.com/" target="_blank">
             <i className="social_dribbble"></i>
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/" target="_blank">
             <i className="social_linkedin"></i>
           </a>
-          <a href="#">
+          <a href="https://vimeo.com/" target="_blank">
             <i className="social_vimeo"></i>
           </a>
-          <a href="#">
+          <a href="https://www.tumblr.com/" target="_blank">
             <i className="social_tumblr"></i>
           </a>
         </div>
