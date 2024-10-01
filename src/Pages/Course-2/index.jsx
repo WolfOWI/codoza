@@ -23,7 +23,7 @@ function Course2() {
     content = (
       <>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
-        <Banner title="Our Curriculum" background="assets/images/banner3.jpg" />
+        <Banner title="Our Curriculum" background="assets/images/kids-developing.jpg" />
         <div className="container mt-5">
           <h5 className="font-weight-normal">
             Our 10-month curriculum is designed to take students from beginner to intermediate level
