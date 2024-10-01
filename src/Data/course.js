@@ -9,7 +9,7 @@ export const course = [
     author: {
       name: "Isla Arrays",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-7.png",
     },
   },
   {
@@ -22,7 +22,7 @@ export const course = [
     author: {
       name: "Finn Boolean",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-8.png",
     },
   },
   {
@@ -35,7 +35,7 @@ export const course = [
     author: {
       name: "Isla Arrays",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-7.png",
     },
   },
   {
@@ -48,7 +48,7 @@ export const course = [
     author: {
       name: "Oliver Syntax",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-6.png",
     },
   },
   {
@@ -61,7 +61,7 @@ export const course = [
     author: {
       name: "Zara Styles",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-5.png",
     },
   },
   {
@@ -74,7 +74,7 @@ export const course = [
     author: {
       name: "Milo Functions",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-4.png",
     },
   },
   {
@@ -87,7 +87,7 @@ export const course = [
     author: {
       name: "Felix Variables",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-2.png",
     },
   },
   {
@@ -100,7 +100,7 @@ export const course = [
     author: {
       name: "Felix Variables",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-2.png",
     },
   },
   {
@@ -113,7 +113,7 @@ export const course = [
     author: {
       name: "Lana Debugger",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-1.png",
     },
   },
   {
@@ -126,7 +126,7 @@ export const course = [
     author: {
       name: "Tina Loops",
       profile: "#",
-      img: "assets/images/home/course/author.png",
+      img: "assets/images/instructors/lect-3.png",
     },
   },
 ];
