@@ -3,12 +3,7 @@ import Preloader from "../../Component/Preloader";
 import Header from "../../Component/Headers";
 import HomeHero from "../../Component/Heros/Home-hero";
 import PopularCourse from "../../Component/Course/PopularCourse";
-import Feature from "../../Component/Features/Feature";
 import Cta from "../../Component/Cta/Cta";
-import Video from "../../Component/Video/Video";
-import Event from "../../Component/Event/Event";
-import Package from "../../Component/Package/Package";
-import Blogs from "../../Component/Blogs/Blogs";
 import Footer from "../../Component/Footer/Footer";
 import GotoTop from "../../Component/GotoTop";
 

@@ -4,7 +4,6 @@ import Header from "../../Component/Headers";
 import Footer from "../../Component/Footer/Footer";
 import Banner from "../../Component/Banner/Banner";
 import { course } from "../../Data/course";
-import CourseListView from "../../Component/Cards/CourseListView";
 import FeatureCourseCard from "../../Component/Cards/FeatureCourseCard";
 import { Link } from "react-router-dom";
 import GotoTop from "../../Component/GotoTop";
