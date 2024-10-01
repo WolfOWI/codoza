@@ -18,11 +18,7 @@ function FooterHome2() {
                 </div>
                 <div className="col-md-6">
                   <form action="#" method="post">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Your email here"
-                    />
+                    <input type="email" name="email" placeholder="Your email here" />
                     <input type="submit" name="submit" value="Subscribe" />
                   </form>
                 </div>
@@ -37,10 +33,7 @@ function FooterHome2() {
                 <Link to="/">
                   <img src="assets/images/logo2.png" alt="" />
                 </Link>
-                <p>
-                  Lost the plot Richard you mug cup of tea knackered boot
-                  bender.
-                </p>
+                <p>Lost the plot Richard you mug cup of tea knackered boot bender.</p>
                 <div className="ab-social">
                   <a className="fac" href="#">
                     <i className="social_facebook"></i>
@@ -63,7 +56,7 @@ function FooterHome2() {
               <h3 className="widget-title">Explore</h3>
               <ul>
                 <li>
-                  <Link to="/about-2">About Us</Link>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
                   <Link to="/">Success Story</Link>
@@ -75,7 +68,7 @@ function FooterHome2() {
                   <Link to="/">Resource Center</Link>
                 </li>
                 <li>
-                  <Link to="/course-2">Courses</Link>
+                  <Link to="/curriculum">Courses</Link>
                 </li>
                 <li>
                   <Link to="/contact">Contact Us</Link>

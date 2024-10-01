@@ -11,7 +11,7 @@ function FeatureHome3() {
                 We focus on hands-on learning, ensuring that students understand coding concepts
                 through interactive projects and challenges.
               </p>
-              <a href="/course-2" className="bisylms-btn-3">
+              <a href="/curriculum" className="bisylms-btn-3">
                 Learn More
               </a>
             </div>

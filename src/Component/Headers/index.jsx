@@ -41,10 +41,10 @@ function Header({ className, logo, joinBtn, search }) {
               >
                 <ul className="navbar-nav">
                   <li>
-                    <a href="/course-2">Curriculum</a>
+                    <a href="/curriculum">Curriculum</a>
                   </li>
                   <li>
-                    <a href="/about-2">About Us</a>
+                    <a href="/about">About Us</a>
                   </li>
                   <li className="d-md-none">
                     <a href="/contact">Enroll Today</a>

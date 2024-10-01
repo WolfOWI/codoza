@@ -14,7 +14,7 @@ function Customer() {
               <br />
               coding concepts through interactive projects and challenges.
             </p>
-            <Link to="/course-2" className="bisylms-btn-2">
+            <Link to="/curriculum" className="bisylms-btn-2">
               Learn More
             </Link>
           </div>

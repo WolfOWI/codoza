@@ -15,9 +15,7 @@ function Home3Header() {
   };
   return (
     <header
-      className={` header-03  sticky ${
-        windowPosition > 0 && "fix-header animated fadeInDown"
-      } `}
+      className={` header-03  sticky ${windowPosition > 0 && "fix-header animated fadeInDown"} `}
     >
       <div className="container-fluid">
         <div className="row">
@@ -31,56 +29,40 @@ function Home3Header() {
 
               {/* Select Cate Box  */}
               <div className="catecories-box">
-                <div
-                  className="select-item"
-                  onClick={() => setCategoryOpen(!categoryOpen)}
-                >
-                  <div
-                    className={`nice-select ${categoryOpen && "open"}`}
-                    tabIndex="0"
-                  >
+                <div className="select-item" onClick={() => setCategoryOpen(!categoryOpen)}>
+                  <div className={`nice-select ${categoryOpen && "open"}`} tabIndex="0">
                     <span className="current">{filter}</span>
                     <ul className="list">
                       <li
                         data-value="1"
-                        className={`option focus ${
-                          filter === "Explore" && "selected"
-                        }`}
+                        className={`option focus ${filter === "Explore" && "selected"}`}
                       >
                         Explore
                       </li>
                       <li
                         data-value="2"
-                        className={`option ${
-                          filter === "Option 01" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 01" && "selected"}`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 01
                       </li>
                       <li
                         data-value="3"
-                        className={`option ${
-                          filter === "Option 02" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 02" && "selected"}`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 02
                       </li>
                       <li
                         data-value="4"
-                        className={`option ${
-                          filter === "Option 03" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 03" && "selected"}`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 03
                       </li>
                       <li
                         data-value="5"
-                        className={`option ${
-                          filter === "Option 04" && "selected"
-                        }`}
+                        className={`option ${filter === "Option 04" && "selected"}`}
                         onClick={(e) => handleFilter(e)}
                       >
                         Option 04
@@ -119,19 +101,13 @@ function Home3Header() {
                   <li
                     className="menu-item-has-children"
                     onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "home" ? false : "home"
-                      )
+                      setActiveSubMobileMenu(activeMobileSubMenu === "home" ? false : "home")
                     }
                   >
                     <a>Home</a>
                     <span className="submenu-toggler">
                       <i
-                        className={`fal ${
-                          activeMobileSubMenu === "home"
-                            ? "fa-minus"
-                            : "fa-plus"
-                        }`}
+                        className={`fal ${activeMobileSubMenu === "home" ? "fa-minus" : "fa-plus"}`}
                       ></i>
                     </span>
                     <ul
@@ -154,18 +130,14 @@ function Home3Header() {
                   <li
                     className="menu-item-has-children"
                     onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "course" ? false : "course"
-                      )
+                      setActiveSubMobileMenu(activeMobileSubMenu === "course" ? false : "course")
                     }
                   >
                     <a>Courses</a>
                     <span className="submenu-toggler">
                       <i
                         className={`fal ${
-                          activeMobileSubMenu === "course"
-                            ? "fa-minus"
-                            : "fa-plus"
+                          activeMobileSubMenu === "course" ? "fa-minus" : "fa-plus"
                         }`}
                       ></i>
                     </span>
@@ -179,7 +151,7 @@ function Home3Header() {
                         <Link to="/course-1">Course 01</Link>
                       </li>
                       <li>
-                        <Link to="/course-2">Course 02</Link>
+                        <Link to="/curriculum">Course 02</Link>
                       </li>
                       <li>
                         <Link to="/course-3">Course 03</Link>
@@ -208,9 +180,7 @@ function Home3Header() {
                     <span className="submenu-toggler">
                       <i
                         className={`fal ${
-                          activeMobileSubMenu === "pages"
-                            ? "fa-minus"
-                            : "fa-plus"
+                          activeMobileSubMenu === "pages" ? "fa-minus" : "fa-plus"
                         }`}
                       ></i>
                     </span>
@@ -227,9 +197,7 @@ function Home3Header() {
                         <span className="submenu-toggler" name="aboutPages">
                           <i
                             className={`fal ${
-                              activeMobileSubMenu === "aboutPages"
-                                ? "fa-minus"
-                                : "fa-plus"
+                              activeMobileSubMenu === "aboutPages" ? "fa-minus" : "fa-plus"
                             }`}
                             name="aboutPages"
                           ></i>
@@ -237,15 +205,14 @@ function Home3Header() {
                         <ul
                           className="sub-menu"
                           style={{
-                            display:
-                              activeMobileSubMenu === "aboutPages" && "block",
+                            display: activeMobileSubMenu === "aboutPages" && "block",
                           }}
                         >
                           <li>
                             <Link to="/about-1">About 01</Link>
                           </li>
                           <li>
-                            <Link to="/about-2">About 02</Link>
+                            <Link to="/about">About 02</Link>
                           </li>
                         </ul>
                       </li>
@@ -263,19 +230,13 @@ function Home3Header() {
                   <li
                     className="menu-item-has-children"
                     onClick={() =>
-                      setActiveSubMobileMenu(
-                        activeMobileSubMenu === "blog" ? false : "blog"
-                      )
+                      setActiveSubMobileMenu(activeMobileSubMenu === "blog" ? false : "blog")
                     }
                   >
                     <a>Blog</a>
                     <span className="submenu-toggler">
                       <i
-                        className={`fal ${
-                          activeMobileSubMenu === "blog"
-                            ? "fa-minus"
-                            : "fa-plus"
-                        }`}
+                        className={`fal ${activeMobileSubMenu === "blog" ? "fa-minus" : "fa-plus"}`}
                       ></i>
                     </span>
                     <ul
