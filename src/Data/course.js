@@ -3,7 +3,7 @@ export const course = [
     id: 1,
     title: "February",
     heading: "Introduction to Coding Concepts",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-01.png",
     point01: "Introduction to block-based coding using Scratch.",
     point02: "Understanding coding logic: loops, conditionals, and variables.",
     author: {
@@ -16,7 +16,7 @@ export const course = [
     id: 2,
     title: "March",
     heading: "Storytelling Through Coding",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-02.png",
     point01: "Create interactive stories using Scratch.",
     point02: "Learn about sequencing and debugging.",
     author: {
@@ -29,7 +29,7 @@ export const course = [
     id: 3,
     title: "April",
     heading: "Building Simple Games",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-03.png",
     point01: "Develop basic games like Pong using Scratch.",
     point02: "Introduction to sprite movement and event-based programming.",
     author: {
@@ -42,7 +42,7 @@ export const course = [
     id: 4,
     title: "May",
     heading: "Introduction to Web Development",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-04.png",
     point01: "Learn the basics of HTML.",
     point02: "Build a simple webpage: formatting text, images, and links.",
     author: {
@@ -55,7 +55,7 @@ export const course = [
     id: 5,
     title: "June",
     heading: "Styling Web Pages",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-05.png",
     point01: "Introduction to CSS.",
     point02: "Style webpages with fonts, colors, and layouts.",
     author: {
@@ -68,7 +68,7 @@ export const course = [
     id: 6,
     title: "July",
     heading: "Animating Web Pages",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-06.png",
     point01: "Adding animations and transitions with CSS.",
     point02: "Introduction to simple animations using JavaScript.",
     author: {
@@ -81,7 +81,7 @@ export const course = [
     id: 7,
     title: "August",
     heading: "Game Development with JavaScript",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-07.png",
     point01: "Build basic interactive games using JavaScript.",
     point02: "Explore variables, functions, and event listeners in game creation.",
     author: {
@@ -94,7 +94,7 @@ export const course = [
     id: 8,
     title: "September",
     heading: "Advanced Game Logic",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-08.png",
     point01: "Develop more complex games.",
     point02: "Use multiple levels and advanced functions in JavaScript.",
     author: {
@@ -107,7 +107,7 @@ export const course = [
     id: 9,
     title: "October",
     heading: "Final Project – Web Design",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-09.png",
     point01: "Students design and create their own webpage or game.",
     point02: "Incorporate everything learned (HTML, CSS, JavaScript).",
     author: {
@@ -120,7 +120,7 @@ export const course = [
     id: 10,
     title: "November",
     heading: "Project Showcase & Graduation",
-    img: "assets/images/home/course/3.png",
+    img: "assets/images/course/cur-10.png",
     point01: "Students present their final projects.",
     point02: "Graduation ceremony and certificates.",
     author: {
