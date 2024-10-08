@@ -7,6 +7,7 @@ import About from "../../Component/About";
 import GotoTop from "../../Component/GotoTop";
 import TeacherCard from "../../Component/Cards/TeacherCard";
 import FeatureHome3 from "../../Component/Features/FeatureHome3";
+import { Helmet } from "react-helmet";
 
 function About2() {
   const [isLoading, setIsLoading] = useState(true);
@@ -20,6 +21,25 @@ function About2() {
   } else {
     content = (
       <>
+        <Helmet>
+          <title>About Codoza</title>
+          <meta
+            name="description"
+            content="Learn more about Codoza, our mission to empower kids through coding, and meet our talented instructors."
+          />
+          <meta
+            name="keywords"
+            content="Codoza, coding academy, about us, kids coding, instructors, South Africa"
+          />
+          <meta property="og:title" content="About Codoza" />
+          <meta
+            property="og:description"
+            content="Codoza is a coding academy designed for kids aged 8 to 13, where learning is interactive and fun."
+          />
+          <meta property="og:image" content="assets/images/two-kids-class.jpg" />
+          <meta property="og:url" content="https://codoza.co.za/about" />
+          <meta name="robots" content="index, follow" />
+        </Helmet>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
         <Banner title="About Codoza" background="assets/images/two-kids-class.jpg" />
         <About />

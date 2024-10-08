@@ -7,6 +7,7 @@ import { course } from "../../Data/course";
 import FeatureCourseCard from "../../Component/Cards/FeatureCourseCard";
 import { Link } from "react-router-dom";
 import GotoTop from "../../Component/GotoTop";
+import { Helmet } from "react-helmet";
 
 function Course2() {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,6 +22,25 @@ function Course2() {
   } else {
     content = (
       <>
+        <Helmet>
+          <title>Codoza - Curriculum</title>
+          <meta
+            name="description"
+            content="Explore Codoza's 10-month coding curriculum designed to teach kids fundamental coding skills through interactive projects and hands-on learning."
+          />
+          <meta
+            name="keywords"
+            content="coding curriculum, coding for kids, 10-month program, beginner coding, intermediate coding, game development, web design, Codoza"
+          />
+          <meta property="og:title" content="Codoza - Curriculum" />
+          <meta
+            property="og:description"
+            content="Our 10-month curriculum takes students from beginner to intermediate level in coding, teaching game development, web design, and problem-solving."
+          />
+          <meta property="og:image" content="assets/images/kids-developing.jpg" />
+          <meta property="og:url" content="https://codoza.co.za/curriculum" />
+          <meta name="robots" content="index, follow" />
+        </Helmet>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
         <Banner title="Our Curriculum" background="assets/images/kids-developing.jpg" />
         <div className="container mt-5">

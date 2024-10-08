@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Preloader from "../../Component/Preloader";
 import { Link } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 function Error() {
   const [isLoading, setIsLoading] = useState(true);
@@ -16,6 +17,22 @@ function Error() {
   } else {
     content = (
       <>
+        <Helmet>
+          <title>Page Not Found - Codoza</title>
+          <meta
+            name="description"
+            content="The page you are looking for does not exist. Please check the URL or return to the homepage."
+          />
+          <meta name="robots" content="noindex, follow" />
+          <meta property="og:title" content="Page Not Found - Codoza" />
+          <meta
+            property="og:description"
+            content="Oops! We can't find the page you're looking for. Return to the homepage or contact us for help."
+          />
+          <meta property="og:image" content="assets/images/404-bg.jpg" />
+          <meta property="og:url" content="https://codoza.co.za/404" />
+        </Helmet>
+
         <section
           className="section-404"
           style={{ backgroundImage: "url(assets/images/404-bg.jpg)" }}

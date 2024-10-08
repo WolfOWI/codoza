@@ -6,6 +6,7 @@ import Banner from "../../Component/Banner/Banner";
 import ContactForm from "../../Component/Form/ContactForm";
 import Map from "../../Component/Map";
 import GotoTop from "../../Component/GotoTop";
+import { Helmet } from "react-helmet";
 
 function Contact() {
   const [isLoading, setIsLoading] = useState(true);
@@ -19,6 +20,25 @@ function Contact() {
   } else {
     content = (
       <>
+        <Helmet>
+          <title>Contact Codoza - Coding Academy for Kids</title>
+          <meta
+            name="description"
+            content="Contact Codoza to inquire about our 10-month coding program for kids, or reach out with any questions. We're here to help!"
+          />
+          <meta
+            name="keywords"
+            content="contact, coding academy, kids coding, South Africa, enrollment, Codoza"
+          />
+          <meta property="og:title" content="Contact Codoza - Coding Academy for Kids" />
+          <meta
+            property="og:description"
+            content="Reach out to Codoza for any inquiries regarding our coding programs for kids, or for assistance with enrollment."
+          />
+          <meta property="og:image" content="assets/images/classroom-tablet.jpg" />
+          <meta property="og:url" content="https://codoza.co.za/contact" />
+          <meta name="robots" content="index, follow" />
+        </Helmet>
         <Header logo="assets/images/logo4.png" joinBtn={true} />
         <Banner title="Contact Us" background="assets/images/classroom-tablet.jpg" />
         <section className="contact-section">
