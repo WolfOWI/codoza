@@ -8,6 +8,8 @@ function Cta() {
         backgroundImage: "url(assets/images/home/cta-bg.jpg)",
         padding: 100,
       }}
+      role="img"
+      aria-label="Parent testimonial background"
     >
       <div className="container">
         <div className="row">

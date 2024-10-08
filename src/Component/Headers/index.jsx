@@ -19,8 +19,12 @@ function Header({ className, logo, joinBtn, search }) {
             <nav className="navbar navbar-expand-lg">
               {/* logo Start */}
               <Link className="navbar-brand" to="/">
-                <img src={logo} alt="" />
-                <img className="sticky-logo" src="assets/images/logo4.png" alt="" />
+                <img src={logo} alt="Codoza logo - Coding Academy for Kids" />
+                <img
+                  className="sticky-logo"
+                  src="assets/images/logo4.png"
+                  alt="Codoza sticky logo"
+                />
               </Link>
               {/* logo End */}
 

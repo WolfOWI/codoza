@@ -2,26 +2,56 @@ function ContactForm() {
   return (
     <form action="#" method="post" className="row">
       <div className="col-md-6">
-        <input type="text" name="f-name" placeholder="First & Last Name" required />
+        <input
+          type="text"
+          name="f-name"
+          placeholder="First & Last Name"
+          required
+          aria-label="First and Last Name"
+        />
       </div>
       <div className="col-md-6">
-        <input type="email" name="email" placeholder="Email Address" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="Email Address"
+          required
+          aria-label="Email Address"
+        />
       </div>
       <div className="col-md-6">
-        <input type="number" name="phone" placeholder="Phone Number" required />
+        <input
+          type="number"
+          name="phone"
+          placeholder="Phone Number"
+          required
+          aria-label="Phone Number"
+        />
       </div>
       <div className="col-md-6">
-        <input type="number" name="age" placeholder="Child's Age" required />
+        <input
+          type="number"
+          name="age"
+          placeholder="Child's Age"
+          required
+          aria-label="Child's Age"
+        />
       </div>
 
       <div className="col-md-12">
-        <textarea name="message" placeholder="How can we help?" required></textarea>
+        <textarea
+          name="message"
+          placeholder="How can we help?"
+          required
+          aria-label="Message"
+        ></textarea>
       </div>
       <div className="col-md-6">
         <div className="condition-check">
           <select
             name="inquiry-type"
             required
+            aria-label="Inquiry Type"
             style={{
               padding: "8px",
               paddingLeft: "32px",
@@ -40,7 +70,7 @@ function ContactForm() {
         </div>
       </div>
       <div className="col-md-6 text-right">
-        <input type="submit" name="submit" value="Send Message" />
+        <input type="submit" name="submit" value="Send Message" aria-label="Send Message" />
       </div>
     </form>
   );

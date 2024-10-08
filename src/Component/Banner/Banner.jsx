@@ -6,6 +6,8 @@ function Banner({ title, background }) {
     <section
       className="page-banner"
       style={{ backgroundImage: `url(${background})` }}
+      role="img"
+      aria-label={`Background image for ${title} page`}
     >
       <div className="container">
         <div className="row">

@@ -5,7 +5,7 @@ function About() {
         <div className="row">
           <div className="col-lg-7">
             <div className="ab-thumb">
-              <img src="assets/images/coding3d.png" alt="" />
+              <img src="assets/images/coding3d.png" alt="3D illustration of coding environment" />
             </div>
           </div>
           <div className="col-lg-5">
@@ -18,7 +18,10 @@ function About() {
             </div>
             <div className="fact-wrapper">
               <div className="funfact-item text-center">
-                <img src="assets/images/home2/f1.png" alt="" />
+                <img
+                  src="assets/images/f1.png"
+                  alt="Illustration representing number of students"
+                />
                 <h2>
                   <span data-counter="24200" className="timer">
                     500
@@ -28,7 +31,7 @@ function About() {
                 <p>Students</p>
               </div>
               <div className="funfact-item text-center">
-                <img src="assets/images/home2/f2.png" alt="" />
+                <img src="assets/images/f2.png" alt="Illustration representing number of topics" />
                 <h2>
                   <span data-counter="6214" className="timer">
                     10
@@ -38,7 +41,7 @@ function About() {
                 <p>Topics</p>
               </div>
               <div className="funfact-item text-center">
-                <img src="assets/images/home2/f3.png" alt="" />
+                <img src="assets/images/f3.png" alt="Illustration representing number of awards" />
                 <h2>
                   <span data-counter="2500" className="timer">
                     7

@@ -8,7 +8,7 @@ function PopularCourse({ course, heading }) {
         <div className="row mt-120">
           <div className="col-lg-7 col-md-6">
             <div className="ab-thumb">
-              <img src="assets/images/home/1.png" alt="" />
+              <img src="assets/images/home/1.png" alt="Codoza coding curriculum highlights" />
             </div>
           </div>
           <div className="col-lg-5 col-md-6">
@@ -57,6 +57,7 @@ function PopularCourse({ course, heading }) {
                           width="74"
                           height="60"
                           xlinkHref="assets/images/home/desktop1-image.png"
+                          alt="Desktop coding project image"
                         />
                       </pattern>
                     </defs>
@@ -81,6 +82,7 @@ function PopularCourse({ course, heading }) {
                       width="58"
                       height="73"
                       xlinkHref="assets/images/home/mind-image.png"
+                      alt="Kids coding mindset image"
                     />
                   </svg>
                 </CourseItemCard>
@@ -97,6 +99,7 @@ function PopularCourse({ course, heading }) {
                       width="64"
                       height="64"
                       xlinkHref="assets/images/home/data-image.png"
+                      alt="Game development and web design image"
                     />
                   </svg>
                 </CourseItemCard>
@@ -113,6 +116,7 @@ function PopularCourse({ course, heading }) {
                       width="80"
                       height="67"
                       xlinkHref="assets/images/home/chat-image.png"
+                      alt="Coding with Scratch, HTML, CSS, JavaScript"
                     />
                   </svg>
                 </CourseItemCard>
