@@ -31,7 +31,7 @@ function HomeHero() {
               <p>
                 Join our fun and interactive 10-month coding program designed for kids aged 8 to 13.
               </p>
-              <Link to="/course-1" className="bisylms-btn">
+              <Link to="/curriculum" className="bisylms-btn">
                 Learn More
               </Link>
             </div>
