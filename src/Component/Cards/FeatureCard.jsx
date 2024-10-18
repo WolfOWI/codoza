@@ -16,15 +16,12 @@ function FeatureCard({ course }) {
     courseLink,
   } = course;
   return (
-    <div
-      className="col-lg-4 col-md-6 shaf-item"
-      data-groups='["all", "science"]'
-    >
+    <div className="col-lg-4 col-md-6 shaf-item" data-groups='["all", "science"]'>
       <div className="feature-course-item">
         <div className="flipper">
           <div className="front">
             <div className="fcf-thumb">
-              <img src={img} alt="" />
+              <img src={img} alt="coding course image" />
             </div>
             <p>{title}</p>
             <h4>{heading}</h4>
@@ -41,7 +38,7 @@ function FeatureCard({ course }) {
           </div>
           <div className="back">
             <div className="fcf-thumb">
-              <img src="assets/images/home/course/6.png" alt="" />
+              <img src="assets/images/home/course/6.png" alt="coding course" />
             </div>
             <Link to={courseLink} className="c-cate">
               {title}
@@ -64,7 +61,7 @@ function FeatureCard({ course }) {
               <span>${price}</span>
             </div>
             <div className="author">
-              <img src={author.img} alt="" />
+              <img src={author.img} alt="coding instructor image" />
               <Link to={author.profileLink}>{author.name}</Link>
             </div>
             <div className="fcf-bottom">

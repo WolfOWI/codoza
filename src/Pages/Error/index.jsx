@@ -18,7 +18,9 @@ function Error() {
     content = (
       <>
         <Helmet>
-          <title>Page Not Found - Codoza</title>
+          <title>
+            Page Not Found - Codoza - - The South African Coding academy for kids aged 8 to 13
+          </title>
           <meta
             name="description"
             content="The page you are looking for does not exist. Please check the URL or return to the homepage."

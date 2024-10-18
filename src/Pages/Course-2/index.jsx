@@ -23,10 +23,12 @@ function Course2() {
     content = (
       <>
         <Helmet>
-          <title>Codoza - Curriculum</title>
+          <title>
+            Codoza - Curriculum - - The South African Coding academy for kids aged 8 to 13
+          </title>
           <meta
             name="description"
-            content="Explore Codoza's 10-month coding curriculum designed to teach kids fundamental coding skills through interactive projects and hands-on learning."
+            content="Explore Codoza's 10-month coding program where kids learn fundamental coding skills through hands-on projects in game development and web design."
           />
           <meta
             name="keywords"
@@ -44,6 +46,7 @@ function Course2() {
         <Header logo="assets/images/logo4.png" joinBtn={true} />
         <Banner title="Our Curriculum" background="assets/images/kids-developing.jpg" />
         <div className="container mt-5">
+          <h1 style={{ position: "absolute", opacity: 0 }}>Codoza Coding Academy Curriculum</h1>
           <h5 className="font-weight-normal">
             Our 10-month curriculum is designed to take students from beginner to intermediate level
             in coding, ensuring they have a solid foundation in programming by the end of the

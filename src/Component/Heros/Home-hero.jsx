@@ -27,6 +27,9 @@ function HomeHero() {
           <div className="col-lg-5 col-md-5">
             <div className="hero-content">
               <h2>Welcome to Codoza</h2>
+              <h1 style={{ position: "absolute", opacity: 0 }}>
+                Welcome to Codoza - A Coding Program where kids become future coders!
+              </h1>
               <h3>Where kids become future coders!</h3>
               <p>
                 Join our fun and interactive 10-month coding program designed for kids aged 8 to 13.

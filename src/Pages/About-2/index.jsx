@@ -22,10 +22,10 @@ function About2() {
     content = (
       <>
         <Helmet>
-          <title>About Codoza</title>
+          <title>About Codoza - The South African Coding academy for kids aged 8 to 13</title>
           <meta
             name="description"
-            content="Learn more about Codoza, our mission to empower kids through coding, and meet our talented instructors."
+            content="Discover Codoza's mission to inspire young coders through interactive learning, and meet the talented instructors behind our 10-month program."
           />
           <meta
             name="keywords"
@@ -47,6 +47,9 @@ function About2() {
           <div className="container">
             <div className="row">
               <div className="col-md-12 text-center">
+                <h1 style={{ position: "absolute", opacity: 0 }}>
+                  Codoza Coding Academy Instructors
+                </h1>
                 <h2 className="sec-title mb-25">Meet Our Instructors</h2>
               </div>
             </div>

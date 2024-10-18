@@ -10,6 +10,9 @@ function About() {
           </div>
           <div className="col-lg-5">
             <div className="ab-content-2">
+              <h1 style={{ position: "absolute", opacity: 0 }}>
+                Codoza Coding Academy - Our Story and Mission
+              </h1>
               <h3>Our Story</h3>
               <h4 className="font-weight-normal">
                 Codoza was founded to inspire the next generation of programmers by making coding

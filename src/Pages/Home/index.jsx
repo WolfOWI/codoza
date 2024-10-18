@@ -21,11 +21,12 @@ function Home() {
     content = (
       <>
         <Helmet>
-          <title>Codoza - Home</title>
+          <title>Codoza - Home - The South African Coding academy for kids aged 8 to 13</title>
           <meta
             name="description"
-            content="Welcome to Codoza, the coding academy for kids aged 8 to 13. Join our 10-month interactive program!"
+            content="Codoza's 10-month coding program empowers kids aged 8 to 13 with skills in game development, web design, and problem-solving. Enroll now!"
           />
+
           <meta
             name="keywords"
             content="coding, kids, coding school, South Africa, game development, web design"

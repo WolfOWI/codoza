@@ -21,10 +21,10 @@ function Contact() {
     content = (
       <>
         <Helmet>
-          <title>Contact Codoza - Coding Academy for Kids</title>
+          <title>Contact Codoza - Coding Academy for Kids aged 8 to 13</title>
           <meta
             name="description"
-            content="Contact Codoza to inquire about our 10-month coding program for kids, or reach out with any questions. We're here to help!"
+            content="Get in touch with Codoza to learn more about our coding program for kids or ask any questions. We're here to assist with enrollment and inquiries."
           />
           <meta
             name="keywords"
@@ -46,6 +46,9 @@ function Contact() {
             <div className="row">
               <div className="col-md-4">
                 <div className="contact--info-area">
+                  <h1 style={{ position: "absolute", opacity: 0 }}>
+                    Codoza Coding Academy Contact Us Today
+                  </h1>
                   <h3>Get in touch</h3>
                   <p>Looking for help? Fill the form and start a new adventure.</p>
                   <div className="single-info">

@@ -14,7 +14,9 @@ function Cta() {
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center">
-            <h2 className="sec-title">Parent Testimonial</h2>
+            <h2 className="sec-title" style={{ fontSize: "32px" }}>
+              Parent Review
+            </h2>
             <p>“My child loved learning to code and built their own game!”</p>
           </div>
         </div>
