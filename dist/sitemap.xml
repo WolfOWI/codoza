@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home Page -->
+  <url>
+    <loc>https://codoza.co.za/</loc>
+    <lastmod>2024-10-18</lastmod>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Curriculum Page -->
+  <url>
+    <loc>https://codoza.co.za/curriculum</loc>
+    <lastmod>2024-10-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- About Us Page -->
+  <url>
+    <loc>https://codoza.co.za/about</loc>
+    <lastmod>2024-10-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Contact Us Page -->
+  <url>
+    <loc>https://codoza.co.za/contact</loc>
+    <lastmod>2024-10-18</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- 404 Page -->
+  <url>
+    <loc>https://codoza.co.za/404</loc>
+    <lastmod>2024-10-18</lastmod>
+    <priority>0.20</priority>
+  </url>
+</urlset>
